@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #b3f1fc;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.head {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 15px 0px;
+  font-size: 2.5em;
+}
+
+.button-style {
+  margin-top: 20px;
+}
+
+#sketchBox {
+  width: 800px;
+  height: 835px;
+  border: 20px solid #a00e0e;
+  background-color: #cb4e4e;
+}
+
+.shadow {
+  box-shadow: 5px 5px 5px 1px #6b0303;
+  -webkit-box-shadow: 5px 5px 5px 1px #6b0303;
+  -moz-box-shadow: 5px 5px 5px 1px #6b0303;
+  -o-box-shadow: 5px 5px 5px 1px #6b0303;
+}
+
+.square {
+  outline: 1px solid black;
+  display: inline-block;
+  background: #f7edca;
+}
+
+.filled {
+  background-color: blueviolet;
+}
+
+.but-style {
+  border-radius: 40px;
+  background: #cb4e4e;
+  color: #fff;
+  box-shadow: 0 6px #ab3c3c;
+  transition: none;
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+}
+
+.head {
+}
